@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<style type="text/css">
+		.container{
+	width: 100%;
+	height: 100vh;
+	display: grid;
+	grid-template: "header" 100px
+					"banner" 600px
+					"content" 300px
+					"aside" 500px
+					"footer" 400px
+					/100%;
+}
+header{
+	background: #2a2a2a;
+}
+.banner{
+	background: #2a2a2a;
+	border: 5px solid #cacaca;
+}
+.content{
+	background: #2a2a2a;
+}
+aside{
+	background: #1de9b6;
+}
+footer{
+	background: #ffeb3b;
+}
+h2, h3, p{
+	font-family: 'Neucha', cursive;
+	color: #cacaca;
+}
+.h2_1{
+	padding-left: 1%
+}
+.logo_akk{
+	width: 30%;
+	margin-left: 33%;
+}
+.block1{
+	width: 50%;
+	height: 400px;
+	text-align: center;
+	margin-left: 23%;
+}
+.filters li {
+    display: inline-block;
+    padding: 8px 5px;
+    background-color: #313131;
+    color: #999;
+    border-width: 1px 1px 2px 1px;
+    border-style: solid;
+    border-color: #222;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: MontSerrat,Tahoma,Arial,sans-serif;
+    font-weight: 700;
+    font-size: .75em;
+    line-height: 1em;
+    box-shadow: 1px 1px 0 rgba(0,0,0,.25);
+    margin: 3px;
+    opacity: 1;
+    cursor: pointer;
+    overflow: hidden;
+}
+.oxo{
+	margin-left: 31%;
+}
+a{
+	color: #999;
+}
+.oxo_two{
+	display: flex;
+}
+	</style>
+	<div class="container">
+		<header>
+			<h2 class="h2_1">PORTFOLIO SABETSKYI</h2>
+		</header>
+		<div class="banner">
+				<img class="logo_akk" src="img/logo.png">
+				<div class="block1">
+				<h2>Lorem ipsum dolor sit amet.</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic repellendus nam dicta excepturi assumenda ducimus modi voluptatum error laborum perspiciatis!</p></div>
+		</div>
+		<div class="content">
+				<div class="oxo">
+					<div class="filters hidden">
+						<ul>
+							<li class="active" title="Show All Projects">
+								<a href="#"><span>Show All</span></a>
+							</li>
+							<li title="Filters by FRONT-END">
+								<a href="#"><span>FRONT-END</span></a>
+							</li>
+							<li title="Filter by HTML5">
+								<a href="#"><span>HTML5</span></a>
+							</li>
+							<li title="Filter by JAVASCRIPT">
+								<a href="#"><span>JAVASCRIPT</span></a>
+							</li>
+							<li title="Filter by CODE">
+								<a href="#"><span>CODE</span></a>
+							</li>
+						</ul>
+					</div>
+					<div class="oxo_two">
+						<div class="bl"><img src="img/1.png"></div>
+						<div class="bl"><img src="img/2.png"></div>
+						<div class="bl"><img src="img/3.png"></div>
+					</div>
+				</div>
+		</div>
+		<aside>
+			
+		</aside>
+		<footer>
+			
+		</footer>
+	</div>
+	
+</body>
+</html>
